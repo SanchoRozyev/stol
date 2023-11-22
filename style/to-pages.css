@@ -1,6 +1,7 @@
 @media(max-width:767px) {
   .to-pages {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     max-width: 50%;
     margin: 20px 10px;
