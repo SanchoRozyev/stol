@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/header.css">
+  <link rel="stylesheet" href="style/hero.css">
+  <link rel="stylesheet" href="style/catalog.css">
+  <link rel="stylesheet" href="style/catalog2.css">
+  <link rel="stylesheet" href="style/reviews.css">
+  <link rel="stylesheet" href="style/about.css">
+  <link rel="stylesheet" href="style/footer.css">
+  <link rel="stylesheet" href="style/popups.css">
+  <link rel="stylesheet" href="style/privacy-policy.css">
+  <link rel="stylesheet" href="style/check-pr-popup.css">
+  <title>Vite App</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container header-container">
+      <a class="header-logo" href="index.html">
+        <img class="header-logo-image" src="images/logo 3.svg" alt="">
+        <p class="logo-pg">Продажа и изготовление мебели</p>
+      </a>
+      <nav class="primary-nav nav">
+        <ul role="list" class="nav-list">
+          <li class="nav-element"><a href="index.html">Главная</a></li>
+          <li class="nav-element"><a href="catalog.html">Каталог</a></li>
+          <li class="nav-element"><a href="delivery-payment.html">Доставка и оплата</a></li>
+          <li class="nav-element"><a href="about.html">О компании</a></li>
+          <li class="nav-element"><a href="contacts.html">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header-time">
+        <img src="images/clock-512 2.svg" alt="">
+        <p>Пн - Пт: 10:00-20:00</p>
+      </div>
+      <div class="header-number">+7 727 327 25 22</div>
+      <button class="button order-call-button">Заказать звонок</button>
+
+      <div class="hamburger-menu js-hamburger-menu">
+        <div class="open-hamburger js-open-hamburger"><img src="images/Group 373.svg" alt=""></div>
+        <ul role="list" class="hamburger-main js-hamburger-main">
+          <li class="menu-items js-menu-items"><a href="index.html">Главная</a></li>
+          <li class="menu-items js-menu-items"><a href="catalog.html">Каталог</a></li>
+          <li class="menu-items js-menu-items"><a href="delivery-payment.html">Доставка и оплата</a></li>
+          <li class="menu-items js-menu-items"><a href="about.html">О компании</a></li>
+          <li class="menu-items js-menu-items"><a href="contacts.html">Контакты</a></li>
+          <li class="menu-items js-menu-items hamburger-time">
+            <img src="images/clock-512 2.svg" alt="">
+            <p>Пн - Пт: 10:00-20:00</p>
+          </li>
+          <div class="close-hamburger js-close-hamburger"><img src="images/image 21.svg" alt=""></div>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <div class="ord-c-background-inactive">
+    <div class="order-call-popup">
+      <div class="ord-c-close"><img src="images/image 20.png" alt=""></div>
+      <h1>Оставьте заявку, мы вам перезвоним!</h1>
+      <div class="ord-c-inputs">
+        <input placeholder="Имя*" type="text" name="" id="">
+        <input placeholder="Телефон*" type="text" name="" id="">
+      </div>
+      <div class="ord-c-buttons">
+        <a href="thanks.html"><button>Заказать звонок</button></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="privacy-background-inactive">
+    <div class="privacy-popup">
+      <div class="close-privacy">
+        <img src="images/image 20.png" alt="">
+      </div>
+      <h1>Политика конфиденциальности</h1>
+      <p>Соблюдение Вашей конфиденциальности важно для нашей компании. Поэтому мы разработали Политику
+        Конфиденциальности,
+        которая описывает, как используется и хранится Ваша информация. Пожалуйста, ознакомьтесь и сообщите нам, если у
+        Вас возникнут какие-либо вопросы. <br><br> <span>Сбор и использование персональной информации</span><br> Под
+        персональной информацией понимаются данные, которые могут быть использованы для идентификации определенного лица
+        либо связи с ним. От Вас может быть запрошено предоставление персональной информации в любой момент, когда Вы
+        связываетесь с нами. <br><br><span>Какую персональную информацию мы собираем</span> <br>Когда Вы оставляете
+        заявку
+        на сайте, мы можем собирать различную информацию, включая Ваше имя, номер телефона, адрес электронной почты и
+        т.д.
+        <br><br><span>Как мы используем Вашу персональную информацию</span><br>Персональная информация позволяет нам
+        сообщать об уникальных предложениях, акциях и других мероприятиях и ближайших событиях. Время от времени мы
+        можем
+        использовать Вашу персональную информацию для отправки важных уведомлений и сообщений. Мы также можем
+        использовать
+        персональную информацию для внутренних целей: проведения аудита, анализа данных и различных исследований в целях
+        улучшения услуг. Если Вы принимаете участие в розыгрыше призов или конкурсе, мы можем использовать информацию
+        для
+        управления такими программами. <br><br><span>Раскрытие информации третьим лицам</span> <br>Мы не раскрываем
+        полученную от Вас информацию третьим лицам. <br><br><span>Исключения</span> <br>В соответствии с законом,
+        судебным
+        порядком, в судебном разбирательстве и/или на основании публичных запросов или запросов от государственных
+        органов
+        на территории РК. Мы также можем раскрывать информацию о Вас, если мы определим, что такое раскрытие необходимо
+        или уместно в целях безопасности, поддержания правопорядка или иных общественно важных случаях. В случае
+        реорганизации, слияния или продажи мы можем передать собираемую нами персональную информацию соответствующему
+        третьему лицу – правопреемнику. <br><br> <span>Защита персональной информации </span><br>Мы предпринимаем меры
+        предосторожности, включая административные, технические и физические для защиты Вашей персональной информации от
+        утраты, кражи и недобросовестного использования, а также от несанкционированного доступа, раскрытия, изменения и
+        уничтожения. <br><br><span>Соблюдение Вашей конфиденциальности на уровне компании </span><br>Чтобы убедиться,
+        что
+        Ваша персональная информация находится в безопасности, мы доводим нормы соблюдения конфиденциальности и
+        безопасности до наших сотрудников и строго следим за исполнением мер соблюдения конфиденциальности.
+      </p>
+    </div>
+  </div>
+
+  <div class="check-price-popup-background-inactive">
+    <div class="check-pr-popup">
+      <div class="check-pr-img"><img src="images/image 20.png" alt=""></div>
+      <h1>Рассчитайте стоимость изготовления мебели на заказ</h1>
+      <div class="check-pr-grid">
+        <div class="check-popup-type">
+          <h3>Вид мебели</h3>
+          <p class="pop-type-fur-stol">Стол</p>
+          <p class="pop-type-fur-stul">Стул</p>
+          <p class="pop-type-fur-tum">Тумбочка</p>
+          <p class="pop-type-fur-shk">Шкаф</p>
+        </div>
+        <div class="check-popup-size">
+          <h3>Размеры</h3>
+          <select name="Размер" id="raz389">
+            <option hidden value="">Выберите размер</option>
+          </select>
+          <select name="Размер" id="raz833">
+            <option hidden value="">Выберите размер</option>
+          </select>
+          <select name="Размер" id="raz758">
+            <option hidden value="">Выберите размер</option>
+          </select>
+          <select name="Размер" id="raz103">
+            <option hidden value="">Выберите размер</option>
+          </select>
+        </div>
+        <div class="check-popup-amount">
+          <h3>Количество</h3>
+          <select name="Количество" id="kol489">
+            <option hidden value="">Выберите количество</option>
+          </select>
+          <select name="Количество" id="kol391">
+            <option hidden value="">Выберите количество</option>
+          </select>
+          <select name="Количество" id="kol839">
+            <option hidden value="">Выберите количество</option>
+          </select>
+          <select name="Количество" id="kol119">
+            <option hidden value="">Выберите количество</option>
+          </select>
+        </div>
+      </div>
+      <div class="check-popup-inputs">
+        <input placeholder="Имя*" type="text">
+        <input placeholder="Телефон*" type="text">
+        <a href="thanks.html"><button class="check-pr-btn">Рассчитать стоимость</button></a>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-container container">
+        <div class="hero-lines">
+          <div class="top-lines">
+            <div class="vline"><img src="images/Line 204.svg" alt=""></div>
+          </div>
+          <div class="hline">
+            <img src="images/Line 203.png" alt="">
+          </div>
+        </div>
+
+        <div class="hero-text">
+          <h1>Столы-трансформеры 3 в 1</h1>
+          <p>Отличное решение для маленьких квартир и людей, которые ценят функциональность!
+          </p>
+        </div>
+        <div class="hero-list1">
+          <ul role="list">
+            <li class="hero-li1">
+              <img src="images/image 48.svg" alt="">
+              <p>Бесплатная<br> доставка по <br>г.Алматы</p>
+            </li>
+            <li class="hero-li2">
+              <img src="images/warranty.svg" alt="">
+              <p>Гарантия<br>
+                1 год</p>
+            </li>
+            <li class="hero-li3">
+              <img src="images/image 50.svg" alt="">
+              <p>В наличии и<br> на заказ</p>
+            </li>
+            <li class="hero-li4">
+              <img src="images/master.svg" alt="">
+              <p>Бесплатный<br> выезд мастера<br> на замеры</p>
+            </li>
+          </ul>
+        </div>
+        <div class="hero-button-container order-call-button"><button class="hero-button">Оставить заявку</button>
+          <div class="hero-table"><img class="hero-table-img" src="images/image 6 6.svg" alt="">
+            <div class="tbl-1 tbl"><img src="images/tupperware-cutting-board-03-800x600 1.svg" alt="">
+              <div class="tbl-1-1"><img src="images/Group 288.svg" alt="">
+                <div class="table-p1">для кухни</div>
+              </div>
+            </div>
+            <div class="tbl-2 tbl"><img src="images/image 102.svg" alt="">
+              <div class="tbl-2-2"><img src="images/Group 287.svg" alt="">
+                <div class="table-p2">для застолья</div>
+              </div>
+            </div>
+            <div class="tbl-3 tbl"><img src="images/New-Macbook-Apple_2015_dezeen_784_7 1.svg" alt="">
+              <div class="tbl-3-3"><img src="images/Group 285.svg" alt="">
+                <div class="table-p3">для работы</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="hero-list2">
+        <ul role="list">
+          <li class="hero-li1">
+            <img src="images/image 48.svg" alt="">
+            <p>Бесплатная<br> доставка по <br>г.Алматы</p>
+          </li>
+          <li class="hero-li2">
+            <img src="images/warranty.svg" alt="">
+            <p>Гарантия<br>
+              1 год</p>
+          </li>
+          <li class="hero-li3">
+            <img src="images/image 50.svg" alt="">
+            <p>В наличии и<br> на заказ</p>
+          </li>
+          <li class="hero-li4">
+            <img src="images/master.svg" alt="">
+            <p>Бесплатный<br> выезд мастера<br> на замеры</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="catalog">
+      <div class="catalog-container">
+        <div class="short-catalog container">
+          <div class="h1 popular-h1">Популярные модели</div>
+          <div class="catalog-grid">
+            <div class="table-2 catalog-table" id="8fsal">
+              <div class="catalog-image-container"><img src="images/27.svg" alt=""></div>
+              <h2>Стол «Standart»<br>
+                1770*900*750 мм</h2>
+              <div class="catalog-price">
+                <p>26 000 ₸</p>
+              </div>
+              <a href="tovar.html"><button>Заказать</button></a>
+            </div>
+            <div class="table-1 catalog-table" id="9alsaa">
+              <div class="catalog-image-container"><img class="white-table-img" src="images/2.svg" alt="">
+                <div class="discount">
+                  <img src="images/Ellipse 1.svg">
+                  <div>-30%</div>
+                </div>
+              </div>
+              <h2>Стол «Standart»<br>
+                1770*900*750 мм</h2>
+              <div class="catalog-price">
+                <p class="old-price">24 000 ₸</p>
+                <p>26 000 ₸</p>
+              </div>
+              <a href="tovar.html"><button>Заказать</button></a>
+            </div>
+            <div class="table-2 catalog-table" id="8alska">
+              <div class="catalog-image-container"><img src="images/27.svg" alt=""></div>
+              <h2>Стол «Standart»<br>
+                1770*900*750 мм</h2>
+              <div class="catalog-price">
+                <p>26 000 ₸</p>
+              </div>
+              <a href="tovar.html"><button>Заказать</button></a>
+            </div>
+            <div class="table-1 catalog-table" id="5adlka">
+              <div class="catalog-image-container"><img class="white-table-img" src="images/2.svg" alt="">
+                <div class="discount">
+                  <img src="images/Ellipse 1.svg">
+                  <div>-30%</div>
+                </div>
+              </div>
+              <h2>Стол «Standart»<br>
+                1770*900*750 мм</h2>
+              <div class="catalog-price">
+                <p class="old-price">24 000 ₸</p>
+                <p>26 000 ₸</p>
+              </div>
+              <a href="tovar.html"><button>Заказать</button></a>
+            </div>
+            <div class="table-2 catalog-table" id="7asif">
+              <div class="catalog-image-container"><img src="images/27.svg" alt=""></div>
+              <h2>Стол «Standart»<br>
+                1770*900*750 мм</h2>
+              <div class="catalog-price">
+                <p>26 000 ₸</p>
+              </div>
+              <a href="tovar.html"><button>Заказать</button></a>
+            </div>
+            <div class="table-1 catalog-table" id="1aedal">
+              <div class="catalog-image-container"><img class="white-table-img" src="images/2.svg" alt="">
+                <div class="discount">
+                  <img src="images/Ellipse 1.svg">
+                  <div>-30%</div>
+                </div>
+              </div>
+              <h2>Стол «Standart»<br>
+                1770*900*750 мм</h2>
+              <div class="catalog-price">
+                <p class="old-price">24 000 ₸</p>
+                <p>26 000 ₸</p>
+              </div>
+              <a href="tovar.html"><button>Заказать</button></a>
+            </div>
+            <div class="table-2 catalog-table" id="4kadja">
+              <div class="catalog-image-container"><img src="images/27.svg" alt=""></div>
+              <h2>Стол «Standart»<br>
+                1770*900*750 мм</h2>
+              <div class="catalog-price">
+                <p>26 000 ₸</p>
+              </div>
+              <a href="tovar.html"><button>Заказать</button></a>
+            </div>
+            <div class="table-1 catalog-table" id="1odsi">
+              <div class="catalog-image-container">
+                <div class="discount">
+                  <img src="images/Ellipse 1.svg">
+                  <div>-30%</div>
+                </div><img class="white-table-img" src="images/2.svg" alt="">
+              </div>
+              <h2>Стол «Standart»<br>
+                1770*900*750 мм</h2>
+              <div class="catalog-price">
+                <p class="old-price">24 000 ₸</p>
+                <p>26 000 ₸</p>
+              </div>
+              <a href="tovar.html"><button>Заказать</button></a>
+            </div>
+          </div>
+          <div class="see-all"><a href="catalog.html"><button class="see-all-button">смотреть всё</button></a></div>
+        </div>
+
+        <div class="to-order-container">
+          <div>
+            <img src="images/shutterstock_303086189 1.png" alt="">
+          </div>
+          <div class="to-order-text">
+            <h1>Интересует изготовление мебели на заказ?<h1>
+                <p>Рассчитайте стоимость прямо сейчас!</p>
+                <button class="check-pr-btn">Рассчитать стоимость</button>
+          </div>
+        </div>
+
+        <div class="advantages-container">
+          <div>
+            <h1>Преимущества столов от Transformer Table</h1>
+            <div class="advantages-text">
+              <img src="images/Rectangle 33.svg" alt="">
+              <div>
+                <h2>Вместимость</h2>
+                <p>В развернутом виде вы можете уместить за столом компанию до 15 человек.</p>
+              </div>
+            </div>
+            <div class="advantages-text">
+              <img src="images/Rectangle 33.svg" alt="">
+              <div>
+                <h2 class="advantages-h22">Выгода</h2>
+                <p>Работаем без посредников, поэтому готовы предложить вам столы без наценок.</p>
+              </div>
+            </div>
+            <div class="advantages-text">
+              <img src="images/Rectangle 33.svg" alt="">
+              <div>
+                <h2>Выгода</h2>
+                <p>Столы спроектированы с учетом нагрузки до 80 кг.</p>
+              </div>
+            </div>
+            <div class="advantages-text">
+              <img src="images/Rectangle 33.svg" alt="">
+              <div>
+                <h2>Универсальность</h2>
+                <p>Столы нашего производство можно использовать в качестве обеденных и рабочих. Трансформация стола
+                  занимает всего 1 минуту.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="discount-models-container container">
+          <div class="discount-catalog">
+            <div class="h1 discount-models-h1">Модели со скидкой</div>
+            <div class="catalog-grid-2">
+              <div class="table-1 catalog-table" id="8szlfka">
+                <div class="catalog-image-container"><img class="white-table-img" src="images/2.svg" alt="">
+                  <div class="discount">
+                    <img src="images/Ellipse 1.svg">
+                    <div>-30%</div>
+                  </div>
+                </div>
+                <h2>Стол «Standart»<br>
+                  1770*900*750 мм</h2>
+                <div class="catalog-price">
+                  <p class="old-price">24 000 ₸</p>
+                  <p>26 000 ₸</p>
+                </div>
+                <a href="tovar.html"><button>Заказать</button></a>
+              </div>
+              <div class="table-1 catalog-table" id="31fsus">
+                <div class="catalog-image-container"><img class="white-table-img" src="images/2.svg" alt="">
+                  <div class="discount">
+                    <img src="images/Ellipse 1.svg">
+                    <div>-30%</div>
+                  </div>
+                </div>
+                <h2>Стол «Standart»<br>
+                  1770*900*750 мм</h2>
+                <div class="catalog-price">
+                  <p class="old-price">24 000 ₸</p>
+                  <p>26 000 ₸</p>
+                </div>
+                <button class="catalogbtn">Заказать</button>
+              </div>
+              <div class="table-1 catalog-table" id="3kasjach">
+                <div class="catalog-image-container"><img class="white-table-img" src="images/2.svg" alt="">
+                  <div class="discount">
+                    <img src="images/Ellipse 1.svg">
+                    <div>-30%</div>
+                  </div>
+                </div>
+                <h2>Стол «Standart»<br>
+                  1770*900*750 мм</h2>
+                <div class="catalog-price">
+                  <p class="old-price">24 000 ₸</p>
+                  <p>26 000 ₸</p>
+                </div>
+                <a href="tovar.html"><button>Заказать</button></a>
+              </div>
+              <div class="table-1 catalog-table" id="2ldjala">
+                <div class="catalog-image-container">
+                  <div class="discount">
+                    <img src="images/Ellipse 1.svg">
+                    <div>-30%</div>
+                  </div><img class="white-table-img" src="images/2.svg" alt="">
+                </div>
+                <h2>Стол «Standart»<br>
+                  1770*900*750 мм</h2>
+                <div class="catalog-price">
+                  <p class="old-price">24 000 ₸</p>
+                  <p>26 000 ₸</p>
+                </div>
+                <a href="tovar.html"><button>Заказать</button></a>
+              </div>
+            </div>
+            <div class="to-catalog"><a href="catalog.html"><button class="to-catalog-button">перейти в
+                  каталог</button></a></div>
+          </div>
+        </div>
+
+        <div class="interior-container">
+          <div>
+            <img class="interior-mobile" src="images/Group 361.svg" alt="">
+          </div>
+          <div class="interior-text">
+            <h1>Столы Transformer Table идеально впишутся в любой интерьер</h1>
+            <h3>Широкий выбор цвета дерева на Ваш вкус</h3>
+            <div class="colors-grid">
+              <div><img src="images/image 105.svg" alt=""></div>
+              <div><img src="images/image 106.svg" alt=""></div>
+              <div><img src="images/image 107.svg" alt=""></div>
+              <div><img src="images/image 108.svg" alt=""></div>
+              <div><img src="images/image 109.svg" alt=""></div>
+              <div><img src="images/image 110.svg" alt=""></div>
+              <div><img src="images/image 111.svg" alt=""></div>
+              <div><img src="images/image 112.svg" alt=""></div>
+              <div><img src="images/image 104.svg" alt=""></div>
+              <div><img src="images/Без имени-48 2.svg" alt=""></div>
+            </div>
+          </div>
+          <div class="interior-desktop">
+            <div class="interior-desktop1"></div>
+            <div class="interior-desktop2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section">
+      <div class="container">
+        <h1 class="reviews-h1">Отзывы покупателей</h1>
+        <div class="reviews-grid">
+          <div class="reviews-grid-child">
+            <div class="reviews-head">
+              <img src="images/Ellipse 3.svg" alt="">
+              <h2>Макпал</h2>
+            </div>
+            <div class="reviews-text">Спасибо вам. Стол отлично поместился в нашей однушке. Очень радует что место
+              свободно обычно, но когда
+              надо
+              мы можем сделать стол больше для родственников.</div>
+          </div>
+          <div class="reviews-grid-child">
+            <div class="reviews-head">
+              <img src="images/Ellipse 3-1.svg" alt="">
+              <h2>Сергей</h2>
+            </div>
+            <div class="reviews-text">Отличный стол. Приобрели пару дней назад. Довольны. Стол сделан аккуратно,
+              достаточно легко и быстро
+              получилось увеличить размер стола. Буду советовать друзьям. </div>
+          </div>
+          <div class="reviews-grid-child">
+            <div class="reviews-head">
+              <img src="images/Ellipse 3-2.svg" alt="">
+              <h2>Эльмира</h2>
+            </div>
+            <div class="reviews-text">Купили стол для кухни. Удобный и крепкий. Всем довольны. Спасибо!</div>
+          </div>
+          <div class="reviews-grid-child reviews-grid-child2">
+            <div class="reviews-head">
+              <img src="images/Ellipse 3.svg" alt="">
+              <h2>Макпал</h2>
+            </div>
+            <div class="reviews-text">Спасибо вам. Стол отлично поместился в нашей однушке. Очень радует что место
+              свободно обычно, но когда
+              надо
+              мы можем сделать стол больше для родственников.</div>
+          </div>
+          <div class="reviews-grid-child reviews-grid-child2">
+            <div class="reviews-head">
+              <img src="images/Ellipse 3-1.svg" alt="">
+              <h2>Сергей</h2>
+            </div>
+            <div class="reviews-text">Отличный стол. Приобрели пару дней назад. Довольны. Стол сделан аккуратно,
+              достаточно легко и быстро
+              получилось увеличить размер стола. Буду советовать друзьям. </div>
+          </div>
+          <div class="reviews-grid-child reviews-grid-child2">
+            <div class="reviews-head">
+              <img src="images/Ellipse 3-2.svg" alt="">
+              <h2>Эльмира</h2>
+            </div>
+            <div class="reviews-text">Купили стол для кухни. Удобный и крепкий. Всем довольны. Спасибо!</div>
+          </div>
+        </div>
+        <div class="reviews-scroll-arrows">
+          <div class="reviews-arrow left-arrow"><img src="images/Group 243.svg" alt=""></div>
+          <div class="reviews-arrow right-arrow"><img src="images/Group 242.svg" alt=""></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container about-section">
+      <div class="">
+        <h1 class="about-h1">О компании</h1>
+        <div class="about-logo-container"><img src="images/logo 3 3.svg" alt=""></div>
+        <div class="about-main">
+          <div class="about-text">
+            <p class="about-p">Transformer Table - казахстанский производитель корпусной мебели. <br>
+              Мебель нашего производства отличается стилем и удобством, которые придают помещению неповторимую
+              атмосферу.
+              <br><br>
+              У нас вы можете преобрести как готовую мебель, так и заказать индивидуально.
+              <br><br>
+              Добро пожаловать!
+              <br><br>
+            </p>
+            <div class="about-buttons">
+              <button class="check-price-button check-pr-btn">Рассчитать стоимость</button>
+              <a href="catalog.html"><button class="to-catalog-button2">
+                  <p>Перейти в каталог</p> <img class="about-vector" src="images/Vector 35.svg" alt="">
+                </button></a>
+            </div>
+          </div>
+          <div class="about-mobile">
+            <img src="images/Group 372.svg" alt="">
+          </div>
+          <div class="about-desktop">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="go-up-container"><a href="#"><button class="go-up-button"><img src="images/Vector 33.svg"
+            alt="">наверх</button></a>
+    </div>
+
+    <footer>
+      <div class="container footer-container">
+        <div class="footer-logo-container">
+          <div class="footer-logo-child">
+            <img src="images/logo 6.svg" alt="">
+            <h3>Все права защищены 2020</h3>
+          </div>
+          <div class="footer-privacy1 footer-privacy priv-pol-callup">Политика конфиденциальности</div>
+          <div class="order-button1-container"><button class="order-button1 order-button order-call-button">Заказать
+              звонок</button></div>
+        </div>
+        <div class="footer-nav">
+          <ul class="footer-list" role="list">
+            <ui><a href="index.html">Главная</a></ui>
+            <ui><a href="catalog.html">Каталог</a></ui>
+            <ui><a href="delivery-payment.html">Доставка и оплата</a></ui>
+            <ui><a href="about.html">О компании</a></ui>
+            <ui><a href="contacts.html">Контакты</a></ui>
+          </ul>
+          <div class="footer-privacy2 footer-privacy priv-pol-callup">Политика конфиденциальности</div>
+        </div>
+        <div class="footer-license">
+          <div class="footer-number">+7 727 327 25 22</div>
+          <button id="ord-call" class="order-button2 order-call-button order-button">Заказать звонок</button>
+          <div>Design by <span class="attention-span">attention.kz</span></div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script type="module" src="/main.js"></script>
+  <script src="scripts/script.js"></script>
+  <script src="scripts/filter.js"></script>
+  <script src="scripts/popups.js"></script>
+</body>
+
+</html>

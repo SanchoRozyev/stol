@@ -1,0 +1,243 @@
+.delivery-payment-section p {
+  font-family: "Roboto";
+}
+
+@media(max-width:480px) {
+  .delivery-payment-section {
+    margin: 30px 10px;
+
+    background-image: url('../images/Vector\ 311.svg'), url('../images/Vector\ 322.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+  }
+
+  .delivery-payment-h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .delivery-payment-section h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .delivery-payment-section p {
+    font-size: 12px;
+    padding-bottom: 3px;
+  }
+
+  .payment-image-mobile {
+    margin-top: 20px;
+  }
+
+  .payment-image-desktop {
+    display: none;
+  }
+
+  .delivery-payment-page .to-order-container {
+    margin-bottom: 30px;
+  }
+
+  .delivery-payment-page .discount-catalog {
+    margin-bottom: 0;
+  }
+}
+
+@media(min-width:481px) and (max-width:767px) {
+  .delivery-payment-section {
+    margin: 30px 20px;
+
+    background-image: url('../images/Vector\ 311.svg'), url('../images/Vector\ 322.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+  }
+
+  .delivery-payment-h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 30px;
+  }
+
+  .delivery-payment-section h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+
+  .delivery-payment-section p {
+    font-size: 14px;
+    padding-bottom: 3px;
+  }
+
+  .payment-image-mobile {
+    margin-top: 20px;
+  }
+
+  .payment-image-desktop {
+    display: none;
+  }
+
+  .delivery-payment-page .to-order-container {
+    margin-bottom: 30px;
+  }
+
+  .delivery-payment-page .discount-catalog {
+    margin-bottom: 0;
+  }
+}
+
+@media(min-width:768px) and (max-width:1280px) {
+  .delivery-payment-section {
+    margin: 60px 20px 200px 20px;
+
+    background-image: url('../images/Vector\ 311.svg'), url('../images/Vector\ 322.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left, right;
+  }
+
+  .delivery-payment-h1 {
+    text-align: center;
+    font-size: 54px;
+    margin-top: 50px;
+  }
+
+  .d-p-g-top {
+    display: grid;
+    grid-template-columns: 47% 53%;
+    margin-bottom: 60px;
+  }
+
+  .d-p-g-top h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .d-p-g-t-text {
+    padding-left: 50px;
+  }
+
+  .d-p-g-bottom {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 53% 47%;
+  }
+
+  .d-p-g-b-text {
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+  }
+
+  .delivery-payment-section h2 {
+    font-size: 30px;
+  }
+
+  .delivery-payment-section p {
+    font-size: 18px;
+    padding-bottom: 3px;
+  }
+
+  .delivery-payment-section .with-rectangle {
+    margin-top: 5px;
+  }
+
+  .payment-image-mobile {
+    display: none;
+  }
+
+  .payment-image-desktop {
+    padding-bottom: 5px;
+  }
+
+  .delivery-payment-page .to-order-container {
+    margin-bottom: 100px;
+  }
+
+  .delivery-payment-page .discount-catalog {
+    margin-bottom: 0;
+  }
+
+  .delivery-payment-page .catalog-grid-2 {
+    margin-bottom: 0;
+  }
+}
+
+@media(min-width:1281px) {
+  .delivery-payment-section {
+    margin: 60px 0 200px 0;
+
+    background-image: url('../images/Vector\ 311.svg'), url('../images/Vector\ 322.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left, right;
+  }
+
+  .delivery-payment-h1 {
+    text-align: center;
+    font-size: 64px;
+    margin-top: 50px;
+  }
+
+  .d-p-g-top {
+    display: grid;
+    grid-template-columns: 47% 53%;
+    margin-bottom: 60px;
+  }
+
+  .d-p-g-top h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  .d-p-g-t-text {
+    padding-left: 50px;
+  }
+
+  .d-p-g-bottom {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 53% 47%;
+  }
+
+  .d-p-g-b-text {
+    display: flex;
+    justify-content: end;
+    padding-right: 200px;
+  }
+
+  .delivery-payment-section h2 {
+    font-size: 36px;
+  }
+
+  .delivery-payment-section p {
+    font-size: 18px;
+    padding-bottom: 3px;
+  }
+
+  .delivery-payment-section .with-rectangle {
+    margin-top: 10px;
+  }
+
+  .payment-image-mobile {
+    display: none;
+  }
+
+  .payment-image-desktop {
+    padding-bottom: 5px;
+  }
+
+  .delivery-payment-page .to-order-container {
+    margin-bottom: 100px;
+  }
+
+  .delivery-payment-page .discount-catalog {
+    margin-bottom: 0;
+  }
+
+  .delivery-payment-page .catalog-grid-2 {
+    margin-bottom: 0;
+  }
+}

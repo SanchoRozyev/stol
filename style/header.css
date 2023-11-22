@@ -1,0 +1,382 @@
+@media(min-width:1751px) {
+  header {
+    background-color: #FAF5F2;
+    font-family: "Roboto";
+    white-space: nowrap;
+    font-size: 14px;
+    padding: 24px 0 22px 0px;
+    margin-bottom: 7px;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    text-decoration: none;
+    color: #303030;
+  }
+
+  .logo-pg {
+    width: 263px;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-element {
+    padding-right: 75px;
+  }
+
+  .header-time {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-time img {
+    padding-right: 6px;
+  }
+
+  .header-time p {
+    width: 163px;
+  }
+
+  header button {
+    color: #fff;
+    background-color: #D5B19B;
+    width: 195px;
+    height: 36px;
+    border-radius: 10px;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media(min-width:1281px) and (max-width:1750px) {
+  header {
+    background-color: #FAF5F2;
+    font-family: "Roboto";
+    white-space: nowrap;
+    font-size: 14px;
+    padding: 24px 0 22px 0px;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    text-decoration: none;
+    color: #303030;
+  }
+
+  .logo-pg {
+    width: 263px;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-element {
+    padding-right: 20px;
+  }
+
+  .header-time {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-time img {
+    padding-right: 6px;
+  }
+
+  .header-time p {
+    width: 120px;
+  }
+
+  header button {
+    color: #fff;
+    background-color: #D5B19B;
+    width: 130px;
+    height: 36px;
+    border-radius: 10px;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media(min-width:799px) and (max-width:1280px) {
+  header {
+    background-color: #FAF5F2;
+    font-family: "Roboto";
+    white-space: nowrap;
+    font-size: 12px;
+    padding: 20px 0 18px 20px;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    text-decoration: none;
+    color: #303030;
+    padding-right: 15px;
+  }
+
+  .header-logo img {
+    width: 150px;
+  }
+
+  .logo-pg {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-element {
+    padding-right: 20px;
+  }
+
+  .header-time {
+    display: none
+  }
+
+  .header-number {
+    padding-right: 10px;
+  }
+
+  header button {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+}
+
+@media(min-width:481px) and (max-width:798px) {
+  header {
+    background-color: #fff;
+    font-family: "Roboto";
+    white-space: nowrap;
+    font-size: 10px;
+    padding: 11px 20px 9px 20px;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    text-decoration: none;
+    color: #303030;
+  }
+
+  .header-logo img {
+    width: 129px;
+  }
+
+  .logo-pg {
+    display: none;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .nav-element {
+    padding-right: 20px;
+  }
+
+  .header-time {
+    display: none
+  }
+
+  header button {
+    display: none;
+  }
+
+  .hamburger-menu {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hamburger-menu .open-hamburger {
+    display: none;
+  }
+
+  .hamburger-menu .hamburger-main li a {
+    display: inline-block;
+    font-size: 12px;
+    transition: 0.2s ease;
+    height: 14px;
+    margin-bottom: 22px;
+  }
+
+  .hamburger-time img {
+    width: 22px;
+    padding-right: 4px;
+  }
+
+  .hamburger-time {
+    display: flex;
+    align-items: center;
+  }
+
+  .hamburger-menu .hamburger-main {
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .hamburger-menu .hamburger-main {
+    height: 270px;
+    width: 171px;
+    padding-top: 45px;
+    position: absolute;
+    top: -24px;
+    right: 0px;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(255, 220, 196) 0%, #D5B19B 100%);
+    transition: right 0.5s ease 0.1s;
+    display: none;
+  }
+
+  .hamburger-menu .hamburger-main .close-hamburger {
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 14px;
+  }
+
+  .hamburger-menu .open-hamburger {
+    display: block;
+  }
+}
+
+@media (max-width:480px) {
+  header {
+    background-color: #fff;
+    font-family: "Roboto";
+    white-space: nowrap;
+    font-size: 10px;
+    padding: 11px 0 9px 10px;
+  }
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    text-decoration: none;
+    color: #303030;
+  }
+
+  .header-logo img {
+    width: 129px;
+  }
+
+  .logo-pg {
+    display: none;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .nav-element {
+    padding-right: 20px;
+  }
+
+  .header-time {
+    display: none
+  }
+
+  header button {
+    display: none;
+  }
+
+  .hamburger-menu {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hamburger-menu .open-hamburger {
+    display: none;
+  }
+
+  .hamburger-menu .hamburger-main li a {
+    display: inline-block;
+    font-size: 12px;
+    transition: 0.2s ease;
+    height: 14px;
+    margin-bottom: 22px;
+  }
+
+  .hamburger-time img {
+    width: 22px;
+    padding-right: 4px;
+  }
+
+  .hamburger-time {
+    display: flex;
+    align-items: center;
+  }
+
+  .hamburger-menu .hamburger-main {
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .hamburger-menu .hamburger-main {
+    height: 270px;
+    width: 171px;
+    padding-top: 45px;
+    position: absolute;
+    top: -24px;
+    right: 0px;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background: linear-gradient(180deg, rgb(255, 220, 196) 0%, #D5B19B 100%);
+    transition: right 0.5s ease 0.1s;
+    display: none;
+  }
+
+  .hamburger-menu .hamburger-main .close-hamburger {
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 14px;
+  }
+
+  .hamburger-menu .open-hamburger {
+    display: block;
+  }
+}

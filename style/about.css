@@ -1,0 +1,271 @@
+.about-section {
+  background: linear-gradient(180deg, rgba(213, 177, 155, 0.00) 0%, rgba(213, 177, 155, 0.44) 100%);
+}
+
+.about-h1 {
+  text-align: center;
+}
+
+.about-logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-text {
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.about-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 6%;
+}
+
+.check-price-button {
+  background: #D5B19B;
+  color: #fff;
+}
+
+.to-catalog-button2 {
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  white-space: nowrap;
+}
+
+.about-text button {
+  white-space: nowrap;
+}
+
+@media(max-width:480px) {
+  .about-section {
+    padding-top: 55px;
+  }
+
+  .about-h1 {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+
+  .about-logo-container {
+    padding-bottom: 38px;
+  }
+
+  .about-text {
+    font-size: 14px;
+    padding-bottom: 30px;
+  }
+
+  .about-p {
+    padding: 0 2% 30px 5%;
+  }
+
+  .about-buttons {
+    gap: 6%;
+  }
+
+  .about-buttons button {
+    border-radius: 5px;
+    font-size: 12px;
+  }
+
+  .check-price-button {
+    padding: 5px 24px;
+  }
+
+  .to-catalog-button2 {
+    gap: 5%;
+    padding: 5px 29px;
+  }
+
+  .about-mobile img {
+    width: 100%;
+  }
+
+  .about-desktop {
+    display: none;
+  }
+}
+
+@media(min-width:481px) and (max-width:767px) {
+  .about-section {
+    padding-top: 65px;
+  }
+
+  .about-h1 {
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+
+  .about-logo-container {
+    padding-bottom: 48px;
+  }
+
+  .about-logo-container img {
+    width: 50%;
+  }
+
+  .about-text {
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+
+  .about-p {
+    padding: 0 2% 30px 5%;
+  }
+
+  .about-buttons {
+    gap: 8%;
+  }
+
+  .about-buttons button {
+    border-radius: 7px;
+    font-size: 16px;
+  }
+
+  .check-price-button {
+    padding: 5px 24px;
+  }
+
+  .to-catalog-button2 {
+    gap: 5%;
+    padding: 5px 29px;
+  }
+
+  .about-mobile img {
+    width: 100%;
+  }
+
+  .about-desktop {
+    display: none;
+  }
+}
+
+@media(min-width:768px) and (max-width:1280px) {
+  .about-section {
+    padding-top: 100px;
+  }
+
+  .about-h1 {
+    font-size: 48px;
+    padding-bottom: 28px;
+  }
+
+  .about-logo-container {
+    padding-bottom: 48px;
+  }
+
+  .about-logo-container img {
+    width: 20%;
+  }
+
+  .about-main {
+    display: grid;
+    grid-template-columns: 48% 52%;
+  }
+
+  .about-text {
+    font-size: 16px;
+    padding-bottom: 20%;
+    padding-left: 11.5%;
+    padding-right: 6%;
+    padding-top: 30px;
+  }
+
+  .about-buttons {
+    display: flex;
+    justify-content: left;
+    gap: 6%;
+  }
+
+  .about-buttons button {
+    border-radius: 7px;
+    font-size: 16px;
+  }
+
+  .check-price-button {
+    padding: 5px 24px;
+  }
+
+  .to-catalog-button2 {
+    gap: 5%;
+    padding: 5px 29px;
+  }
+
+  .about-mobile {
+    display: none;
+  }
+
+  .about-desktop {
+    background-image: url('../images/31.png'), url('../images/5-1\ 4.png'), url('../images/5-2\ 3.png');
+    background-repeat: no-repeat;
+    background-size: 50%, 70%, 80%;
+    background-position: bottom left, bottom right, top right;
+  }
+}
+
+@media(min-width:1281px) {
+  .about-section {
+    padding-top: 100px;
+  }
+
+  .about-h1 {
+    font-size: 48px;
+    padding-bottom: 28px;
+  }
+
+  .about-logo-container {
+    padding-bottom: 48px;
+  }
+
+  .about-logo-container img {
+    width: 15%;
+  }
+
+  .about-main {
+    display: grid;
+    grid-template-columns: 53% 47%;
+  }
+
+  .about-text {
+    font-size: 16px;
+    padding-bottom: 15%;
+    padding-left: 15%;
+    padding-right: 50px;
+    padding-top: 5%;
+  }
+
+  .about-buttons {
+    display: flex;
+    justify-content: left;
+    gap: 6%;
+    margin-top: 20px;
+  }
+
+  .about-buttons button {
+    border-radius: 10px;
+    font-size: 18px;
+  }
+
+  .check-price-button {
+    padding: 10px 52px;
+  }
+
+  .to-catalog-button2 {
+    gap: 5%;
+    padding: 10px 60px;
+  }
+
+  .about-mobile {
+    display: none;
+  }
+
+  .about-desktop {
+    background-image: url('../images/31.png'), url('../images/5-1\ 4.png'), url('../images/5-2\ 3.png');
+    background-repeat: no-repeat;
+    background-size: 50%, 70%, 80%;
+    background-position: bottom left, bottom right, top right;
+  }
+}

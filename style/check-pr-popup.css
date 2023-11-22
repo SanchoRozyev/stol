@@ -1,0 +1,299 @@
+.check-price-popup-background-inactive {
+  display: none;
+}
+
+.check-price-popup-background-active {
+  background: #fff;
+  position: fixed;
+  z-index: 50;
+}
+
+.check-pr-popup {
+  background: linear-gradient(276deg, rgba(213, 177, 155, 0.46) 1.05%, #D5B19B 97.71%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  overflow: auto;
+}
+
+.check-pr-img {
+  display: flex;
+  justify-content: end;
+}
+
+.check-popup-type,
+.check-popup-size,
+.check-popup-amount,
+.check-popup-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.check-popup-inputs button {
+  background: #D5B19B;
+  color: #fff;
+}
+
+.check-popup-inputs input {
+  border: none;
+}
+
+@media(max-width:480px) {
+  .check-price-popup-background-active {
+    top: 20%;
+    bottom: 20%;
+    left: 0;
+    width: 100%;
+  }
+
+  .check-pr-img img {
+    width: 5%;
+  }
+
+  .check-pr-popup {
+    padding: 20px 20px;
+  }
+
+  .check-pr-popup h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .check-pr-grid {
+    display: grid;
+    grid-template-columns: 26% 37% 37%;
+    column-gap: 5px;
+  }
+
+  .check-pr-grid h3 {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .check-pr-grid select {
+    font-size: 10px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .check-pr-grid p {
+    font-size: 10px;
+    padding-bottom: 7px;
+  }
+
+  .check-popup-inputs {
+    justify-content: center;
+    padding: 20px 20%;
+  }
+
+  .check-popup-inputs input {
+    font-size: 12px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 3px 10px;
+  }
+
+  .check-popup-inputs button {
+    border-radius: 5px;
+    padding: 2px;
+  }
+}
+
+@media(min-width:481px) and (max-width:767px) {
+  .check-price-popup-background-active {
+    top: 10%;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+  }
+
+  .check-pr-img img {
+    width: 5%;
+  }
+
+  .check-pr-popup {
+    padding: 20px 30px;
+  }
+
+  .check-pr-popup h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .check-pr-grid {
+    display: grid;
+    grid-template-columns: 26% 37% 37%;
+    column-gap: 5px;
+  }
+
+  .check-pr-grid h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .check-pr-grid select {
+    font-size: 12px;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .check-pr-grid p {
+    font-size: 12px;
+    padding-bottom: 7px;
+  }
+
+  .check-popup-inputs {
+    justify-content: center;
+    padding: 20px 30%;
+  }
+
+  .check-popup-inputs input {
+    font-size: 14px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 3px 10px;
+  }
+
+  .check-popup-inputs button {
+    border-radius: 5px;
+    padding: 2px;
+  }
+}
+
+@media(min-width:768px) and (max-width:1280px) {
+  .check-price-popup-background-active {
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+  }
+
+  .check-pr-img img {
+    width: 5%;
+  }
+
+  .check-pr-popup {
+    padding: 20px 40px 100px;
+  }
+
+  .check-pr-popup h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .check-pr-grid {
+    display: grid;
+    grid-template-columns: 26% 35% 35%;
+    column-gap: 20px;
+  }
+
+  .check-pr-grid h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .check-pr-grid select {
+    font-size: 16px;
+    margin-bottom: 6px;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .check-pr-grid p {
+    font-size: 16px;
+    padding-bottom: 7px;
+  }
+
+  .check-popup-inputs {
+    justify-content: center;
+    padding: 40px 0 0;
+    align-items: center;
+  }
+
+  .check-popup-inputs input {
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    width: 410px;
+  }
+
+  .check-popup-inputs button {
+    border-radius: 10px;
+    padding: 5px;
+    width: 410px;
+    font-size: 24px;
+  }
+}
+
+@media(min-width:1281px) {
+  .check-price-popup-background-active {
+    top: 0%;
+    bottom: 0%;
+    left: 10%;
+    width: 80%;
+  }
+
+  .check-pr-img img {
+    width: 3%;
+  }
+
+  .check-pr-popup {
+    padding: 20px 40px 100px 100px;
+  }
+
+  .check-pr-popup h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .check-pr-grid {
+    display: grid;
+    grid-template-columns: 26% 30% 30%;
+    column-gap: 40px;
+  }
+
+  .check-pr-grid h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .check-pr-grid select {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 6px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .check-pr-grid p {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  .check-popup-inputs {
+    justify-content: center;
+    padding: 40px 0 0;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .check-popup-inputs input {
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    width: 410px;
+  }
+
+  .check-popup-inputs button {
+    border-radius: 10px;
+    padding: 10px;
+    width: 410px;
+    font-size: 24px;
+  }
+}

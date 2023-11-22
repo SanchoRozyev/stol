@@ -1,0 +1,171 @@
+.thanks {
+  background-image: url('../images/image\ 44\ 1.svg'), url('../images/rectanga.png');
+  background-repeat: no-repeat;
+}
+
+.thanks button {
+  color: #fff;
+  background: linear-gradient(93deg, #D5B19B 10.05%, rgba(213, 177, 155, 0.71) 92.39%);
+}
+
+.container-404 h2 {
+  color: #D5B19B;
+  font-family: Oswald;
+  font-weight: 400;
+}
+
+@media(max-width:480px) {
+  .thanks {
+    background-size: 50%, cover;
+    background-position: right bottom, center;
+  }
+
+  .thanks-container {
+    padding: 50px 10px;
+  }
+
+  .thanks h1 {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+
+  .thanks p {
+    font-size: 10px;
+    width: 160px;
+    padding-bottom: 20px;
+  }
+
+  .thanks button {
+    font-size: 12px;
+    padding: 3px 20px;
+    border-radius: 5px;
+  }
+
+  .container-404 h2 {
+    font-size: 100px;
+  }
+
+  .container-404 h1 {
+    padding-bottom: 0;
+  }
+}
+
+@media(min-width:481px) and (max-width:767px) {
+  .thanks {
+    background-size: 50%, cover;
+    background-position: right bottom, center;
+  }
+
+  .thanks-container {
+    padding: 50px 20px 200px 20px;
+  }
+
+  .thanks h1 {
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+
+  .thanks p {
+    font-size: 12px;
+    width: 250px;
+    padding-bottom: 20px;
+  }
+
+  .thanks button {
+    font-size: 14px;
+    padding: 5px 50px;
+    border-radius: 8px;
+  }
+
+  .container-404 h2 {
+    font-size: 100px;
+  }
+
+  .container-404 h1 {
+    padding-bottom: 0;
+  }
+}
+
+@media(min-width:768px) and (max-width:1280px) {
+  .thanks {
+    background-size: 50%, cover;
+    background-position-x: 80%, center;
+    background-position-y: bottom, center;
+  }
+
+  .thanks-container {
+    padding: 100px 100px 400px 100px;
+  }
+
+  .thanks h1 {
+    font-size: 48px;
+    padding-bottom: 20px;
+  }
+
+  .thanks p {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+
+  .thanks button {
+    font-size: 18px;
+    padding: 5px 60px;
+    border-radius: 8px;
+  }
+
+  .container-404 h2 {
+    font-size: 200px;
+  }
+
+  .container-404 h1 {
+    padding-bottom: 0;
+  }
+}
+
+@media(min-width:1281px) {
+  .thanks {
+    background-size: 45%, cover;
+    background-position-x: 80%, center;
+    background-position-y: bottom, center;
+  }
+
+  .thanks-container {
+    padding: 140px 100px 470px 247px;
+  }
+
+  .thanks h1 {
+    font-size: 48px;
+    padding-bottom: 30px;
+  }
+
+  .thanks p {
+    font-size: 18px;
+    padding-bottom: 70px;
+  }
+
+  .thanks button {
+    font-size: 18px;
+    padding: 9px 70px;
+    border-radius: 8px;
+  }
+
+  .thanks-page-body header {
+    margin-bottom: 0;
+  }
+
+  .container-404 h2 {
+    font-size: 288px;
+  }
+
+  .container-404 h1 {
+    padding-bottom: 0;
+  }
+
+  .container-404 {
+    padding-bottom: 200px;
+  }
+
+  .container-404 p {
+    max-width: 38%;
+  }
+}
