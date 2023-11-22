@@ -1,8 +1,7 @@
 @media(max-width:767px) {
   .to-pages {
     display: flex;
-    justify-content: space-between;
-    max-width: 100px;
+    justify-content: center;
     margin: 20px 10px;
   }
 
